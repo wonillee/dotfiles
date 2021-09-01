@@ -7,7 +7,11 @@ xcode-select --install
 
 # Check for Homebrew and install if we don't have it.
 if test ! $(which brew); then
-  /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+  /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+fi
+if [ ! -f ~/.zprofile ]; then
+  echo 'eval "$(/opt/homebrew/bin/brew shellenv)"' >> ~/.zprofile
+  eval "$(/opt/homebrew/bin/brew shellenv)"
 fi
 
 # Update Homebrew recipes
@@ -25,7 +29,7 @@ if [ -d "$ZSH" ]; then
   echo "Oh My Zsh is already installed. Skipping.."
 else
   echo "Installing Oh My Zsh..."
-  curl -L http://install.ohmyz.sh | sh
+  sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/master/tools/install.sh)"
 fi
 
 # Add plugins for zsh
@@ -39,7 +43,7 @@ source .macos
 if [[ -z `grep -e "jenv init" ~/.zshrc` ]]
   then echo 'eval "$(jenv init -)"' >> /Users/chris/.zshrc
 fi
-source ~/.zshrc
+exec zsh
 
 jenv add $(/usr/libexec/java_home -v1.8)
 jenv add $(/usr/libexec/java_home -v1.11)
