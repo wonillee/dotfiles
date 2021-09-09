@@ -41,7 +41,7 @@ source .macos
 
 # Set jenv
 if [[ -z `grep -e "jenv init" ~/.zshrc` ]]
-  then echo 'eval "$(jenv init -)"' >> /Users/chris/.zshrc
+  then echo 'eval "$(jenv init -)"' >> ~/.zshrc
 fi
 exec zsh
 
