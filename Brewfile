@@ -49,6 +49,7 @@ cask 'gas-mask'
 cask 'caffeine'
 cask 'tunnelblick'
 cask 'font-hack-nerd-font'
+cask 'obsidian'
 
 # Mac App Store
 # mas 'Xcode', id: 497799835
