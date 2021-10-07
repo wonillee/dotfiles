@@ -28,6 +28,7 @@ brew 'mycli'
 brew 'neovim'
 brew 'tmux'
 brew 'jq'
+brew 'asciidoctor'
 
 # Apps
 cask 'google-chrome'
