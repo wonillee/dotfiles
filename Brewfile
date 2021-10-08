@@ -53,6 +53,7 @@ cask 'font-hack-nerd-font'
 cask 'obsidian'
 cask 'zoom'
 cask 'qbittorrent'
+cask 'vlc'
 
 # Mac App Store
 # mas 'Xcode', id: 497799835
