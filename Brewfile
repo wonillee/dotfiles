@@ -29,6 +29,7 @@ brew 'neovim'
 brew 'tmux'
 brew 'jq'
 brew 'asciidoctor'
+brew 'redis'
 
 # Apps
 cask 'google-chrome'
@@ -54,6 +55,8 @@ cask 'obsidian'
 cask 'zoom'
 cask 'qbittorrent'
 cask 'vlc'
+cask 'microsoft-teams'
+cask 'insomnia'
 
 # Mac App Store
 # mas 'Xcode', id: 497799835
