@@ -30,6 +30,7 @@ brew 'tmux'
 brew 'jq'
 brew 'asciidoctor'
 brew 'redis'
+brew 'haskell-stack'
 
 # Apps
 cask 'google-chrome'
