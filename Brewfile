@@ -58,6 +58,7 @@ cask 'qbittorrent'
 cask 'vlc'
 cask 'microsoft-teams'
 cask 'insomnia'
+cask 'expressvpn'
 
 # Mac App Store
 # mas 'Xcode', id: 497799835
