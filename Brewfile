@@ -60,6 +60,7 @@ cask 'microsoft-teams'
 cask 'insomnia'
 cask 'expressvpn'
 cask 'notion'
+cask 'joplin'
 
 # Mac App Store
 # mas 'Xcode', id: 497799835
