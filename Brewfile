@@ -61,6 +61,7 @@ cask 'insomnia'
 cask 'expressvpn'
 cask 'notion'
 cask 'joplin'
+cask 'cyberduck'
 
 # Mac App Store
 # mas 'Xcode', id: 497799835
