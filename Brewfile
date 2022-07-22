@@ -61,8 +61,8 @@ cask 'microsoft-teams'
 cask 'insomnia'
 cask 'expressvpn'
 cask 'notion'
-cask 'joplin'
 cask 'cyberduck'
+cask 'raindropio'
 
 # Mac App Store
 # mas 'Xcode', id: 497799835
